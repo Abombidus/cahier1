@@ -1,33 +1,88 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page de connexion</title>
+    <title>Home</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="form">
-      <h1>Bienvenue chez nous</h1>
-      <div class="content">
-        <label for="name">Nom </label>
-        <input type="text" id="name" placeholder="Entrer votre nom..." />
-        <br />
-        <label for="email">E-mail</label>
-        <input type="email" id="email" placeholder="......@...com" />
-        <br />
-        <label for="phone">Telephone</label>
-        <input type="number" id="phone" placeholder="Numero de telephone" />
-        <br />
+    <nav>
+      <ul>
+        <button id="home" class="tab active">Accueil</button>
+        <button id="hot" onclick="" class="tab">Plat Chaud</button>
+        <button id="cold" onclick="" class="tab">Plat Froid</button>
+      </ul>
+    </nav>
 
-        <!-- Boutons -->
-        <div class="boutons">
-          <button id="seConnecter">Se Connecter</button>
-          <button id="inscription">Cree un compte</button>
-        </div>
+    <div class="program">
+      <article>
+        <h3>Heure d'ouverture ⏲</h3>
+        <p>Lundi 8h-20h</p>
+        <p>Mardi 8h-20h</p>
+        <p>Mercredi 8h-20h</p>
+        <p>Jeudi 8h-20h</p>
+        <p>Vendredi 8h-20h</p>
+        <p>Samedi 8h-18h30</p>
+        <p>Dimanche 8h-18h</p>
+      </article>
+    </div>
+    <!-- Menu -->
+    <h1>Menu</h1>
+    <div class="bigBoite">
+      <div class="boite">
+        <img src="../assets/IMG_3710.JPG" alt="" />
+        <span class="transac">
+          <button onclick="acheter()" id="buy0">Acheter 💰</button>
+          <button onclick="ajouter()" id="add0">Ajouter ➕</button>
+        </span>
+      
+</div>
+
+      <div class="boite">
+        <img src="../assets/IMG_3709.JPG" alt="" />
+        <span class="transac">
+          <button onclick="acheter()" id="buy1">Acheter 💰</button>
+          <button onclick="ajouter()" id="add1">Ajouter ➕</button>
+        </span>
+      </div>
+
+      <div class="boite">
+        <img src="../assets/IMG_3711.JPG" alt="" />
+        <span class="transac">
+          <button onclick="acheter()" id="buy2">Acheter 💰</button>
+          <button onclick="ajouter()" id="add2">Ajouter ➕</button>
+        </span>
+      </div>
+      <div class="boite">
+        <img src="../assets/IMG_3711.JPG" alt="" />
+        <span class="transac">
+          <button onclick="acheter()" id="buy3">Acheter 💰</button>
+          <button onclick="ajouter()" id="add3">Ajouter ➕</button>
+        </span>
+      </div>
+      <div class="boite">
+        <img src="../assets/IMG_3710.JPG" alt="" />
+        <span class="transac">
+          <button onclick="acheter()" id="buy4">Acheter 💰</button>
+          <button onclick="ajouter()" id="add4">Ajouter ➕</button>
+        </span>
+      </div>
+
+      <div class="boite">
+        <img src="../assets/IMG_3709.JPG" alt="" />
+        <span class="transac">
+          <button onclick="acheter()" id="buy5">Acheter 💰</button>
+          <button onclick="ajouter()" id="add5">Ajouter ➕</button>
+        </span>
       </div>
     </div>
 
+    <div id="commander">
+      🛒
+      <span class="counter"></span>
+    </div>
     <script src="./app.js"></script>
   </body>
 </html>

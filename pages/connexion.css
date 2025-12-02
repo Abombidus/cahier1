@@ -1,0 +1,123 @@
+body {
+  transition: 1000ms ease;
+  background-image: url("../assets/IMG_3709.JPG");
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+}
+
+/*1- Bienvenue de la page */
+h1 {
+  font-size: 60px;
+  text-shadow: 2px 3px 2px gray;
+}
+
+/*2- Formulaire */
+form,
+.form {
+  background: rgba(246, 246, 248, 0.6);
+  text-align: center;
+  padding: 2px;
+  border-radius: 12px;
+  height: 280px;
+}
+/*2(b) Contenu du formulaire */
+.content {
+  font-size: 20px;
+  gap: 10rem;
+}
+
+/*3 Bouton */
+button {
+  padding: 5px;
+}
+/* Bouton activer */
+button:active {
+  transform: translateY(10%);
+  box-shadow: none;
+  transition: 300ms ease;
+}
+
+/*3(b) Container de bouton de connexion */
+.boutons {
+  padding: 7px;
+  position: relative;
+  top: 0.6rem;
+  /* display: flex; */
+  /* left: calc(%); */
+  /* justify-content: space-evenly; */
+}
+
+.boutons > button {
+  box-shadow: 2px 3px 2px rgb(3, 3, 3);
+  border-radius: 0.3rem;
+  border: 1px solid transparent;
+}
+
+/*3(c) Bouton de connexion */
+#seConnecter {
+  background: blue;
+  color: white;
+}
+/* Boutons de connexion activer*/
+#seConnecter:active {
+  font-weight: bold;
+  color: rgb(56, 54, 54);
+  background: rgb(116, 116, 214);
+}
+
+/*3(d) Bouton de d'inscription */
+#inscription {
+  color: white;
+  background: blue;
+}
+/* Boutons d'inscription activer*/
+#inscription:active {
+  color: rgb(56, 54, 54);
+  font-weight: bold;
+  background: rgb(116, 116, 214);
+}
+
+/* Input du formulaire */
+#name,
+#email,
+#phone {
+  border-radius: 0.4rem;
+}
+
+/* Media Query Telephone mobile */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 50px;
+  }
+  .form,
+  form {
+    position: relative;
+    top: 9rem;
+    height: fit-content;
+  }
+  .content {
+    font-size: 30px;
+    gap: 5rem;
+  }
+  #name,
+  #email,
+  #phone {
+    height: 1rem;
+  }
+  .boutons {
+    position: relative;
+    top: 5rem;
+  }
+}
+
+/* Media Query for tablette */
+@media (max-width: 900) {
+  body {
+    background: red;
+  }
+  form,
+  .form {
+    position: relative;
+    top: 34rem;
+  }
+}
