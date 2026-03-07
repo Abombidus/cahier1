@@ -427,8 +427,8 @@ h1 {
   }
   #commander {
     position: fixed;
-    left: 25rem;
-    bottom: rem;
+    left: 21rem;
+    /* bottom: rem; */
     margin-top: 21.9rem;
     width: 50px;
     z-index: 1;
