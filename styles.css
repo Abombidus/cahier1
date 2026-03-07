@@ -314,6 +314,8 @@ h1 {
 
 /* Media Query Telephone mobile */
 @media (max-width: 600px) {
+  body {
+  }
   article {
     animation: none;
     width: 80%;
@@ -356,7 +358,7 @@ h1 {
     gap: 0.4rem;
   }
   nav > ul > .tab {
-    font-size: 28.4px;
+    font-size: 28px;
     box-shadow: 2px 4px 3px black;
   }
   .transac {
