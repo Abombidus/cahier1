@@ -427,7 +427,7 @@ h1 {
   }
   #commander {
     position: fixed;
-    left: 22.8rem;
+    left: 23rem;
     /* bottom: rem; */
     margin-top: 21.9rem;
     width: 50px;
@@ -445,5 +445,86 @@ h1 {
     display: grid;
     gap: 0.4rem;
     grid-template-columns: auto auto;
+  }
+
+  /* Active Bouton */
+  #buy0:active {
+    transition: 150ms;
+    box-shadow: none;
+    color: black;
+    background: rgb(91, 134, 91);
+  }
+  #buy1:active {
+    transition: 150ms;
+    box-shadow: none;
+    color: black;
+    background: rgb(91, 134, 91);
+  }
+  #buy2:active {
+    transition: 150ms;
+    box-shadow: none;
+    color: black;
+    background: rgb(91, 134, 91);
+  }
+  #buy3:active {
+    transition: 150ms;
+    box-shadow: none;
+    color: black;
+    background: rgb(91, 134, 91);
+  }
+  #buy4:active {
+    transition: 150ms;
+    box-shadow: none;
+    color: black;
+    background: rgb(91, 134, 91);
+  }
+  #buy5:active {
+    transition: 150ms;
+    box-shadow: none;
+    color: black;
+    background: rgb(91, 134, 91);
+  }
+
+  #add0:active {
+    transition: 150ms;
+    background: rgb(85, 85, 138);
+    color: black;
+    box-shadow: none;
+  }
+  #add1:active {
+    transition: 150ms;
+    background: rgb(85, 85, 138);
+    color: black;
+    box-shadow: none;
+  }
+  #add2:active {
+    transition: 150ms;
+    background: rgb(85, 85, 138);
+    color: black;
+    box-shadow: none;
+  }
+  #add3:active {
+    transition: 150ms;
+    background: rgb(85, 85, 138);
+    color: black;
+    box-shadow: none;
+  }
+  #add4:active {
+    transition: 150ms;
+    background: rgb(85, 85, 138);
+    color: black;
+    box-shadow: none;
+  }
+  #add5:active {
+    transition: 150ms;
+    background: rgb(85, 85, 138);
+    color: black;
+    box-shadow: none;
+  }
+
+  button:active {
+    transform: translateY(20%);
+    box-shadow: none;
+    transition: 150ms ease;
   }
 }
