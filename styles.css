@@ -356,7 +356,7 @@ h1 {
     gap: 0.4rem;
   }
   nav > ul > .tab {
-    font-size: 27px;
+    font-size: 28px;
   }
   .transac {
     position: relative;
@@ -437,7 +437,7 @@ h1 {
     position: relative;
     /* left: -0.4rem; */
     font-size: 9.5px;
-    right: 6px;
+    right: 7.5px;
     bottom: 6px;
     /* font-size: 20px; */
   }
