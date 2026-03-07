@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -29,22 +28,27 @@
       </article>
     </div>
     <!-- Menu -->
-    <h1>Menu</h1>
+    <div class="menu">
+      <h1>Menu</h1>
+    </div>
     <div class="bigBoite">
       <div class="boite">
         <img src="./assets/IMG_3710.JPG" alt="" />
         <span class="transac">
           <button onclick="acheter()" id="buy0">Acheter 💰</button>
-          <button onclick="ajouter()" id="add0">Ajouter ➕</button>
+          <button onclick="ajouter()" id="add0" class="funcAdd">
+            Ajouter ➕
+          </button>
         </span>
-      
-</div>
+      </div>
 
       <div class="boite">
         <img src="./assets/IMG_3709.JPG" alt="" />
         <span class="transac">
           <button onclick="acheter()" id="buy1">Acheter 💰</button>
-          <button onclick="ajouter()" id="add1">Ajouter ➕</button>
+          <button onclick="ajouter()" id="add1" class="funcAdd">
+            Ajouter ➕
+          </button>
         </span>
       </div>
 
@@ -52,21 +56,27 @@
         <img src="./assets/IMG_3711.JPG" alt="" />
         <span class="transac">
           <button onclick="acheter()" id="buy2">Acheter 💰</button>
-          <button onclick="ajouter()" id="add2">Ajouter ➕</button>
+          <button onclick="ajouter()" id="add2" class="funcAdd">
+            Ajouter ➕
+          </button>
         </span>
       </div>
       <div class="boite">
         <img src="./assets/IMG_3711.JPG" alt="" />
         <span class="transac">
           <button onclick="acheter()" id="buy3">Acheter 💰</button>
-          <button onclick="ajouter()" id="add3">Ajouter ➕</button>
+          <button onclick="ajouter()" id="add3" class="funcAdd">
+            Ajouter ➕
+          </button>
         </span>
       </div>
       <div class="boite">
         <img src="./assets/IMG_3710.JPG" alt="" />
         <span class="transac">
           <button onclick="acheter()" id="buy4">Acheter 💰</button>
-          <button onclick="ajouter()" id="add4">Ajouter ➕</button>
+          <button onclick="ajouter()" id="add4" class="funcAdd">
+            Ajouter ➕
+          </button>
         </span>
       </div>
 
@@ -79,9 +89,11 @@
       </div>
     </div>
 
-    <div id="commander">
-      🛒
-      <span class="counter"></span>
+    <div class="histo">
+      <div id="commander">
+        🛒
+        <span class="counter"></span>
+      </div>
     </div>
     <script src="./main.js"></script>
   </body>

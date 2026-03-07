@@ -9,23 +9,25 @@ nav {
   background: rgba(214, 208, 208, 0.7);
   border: 2px solid transparent;
   display: flex;
-  margin: 0;
-  text-align: center;
+  /* margin: 0; */
+  justify-content: space-between;
   position: fixed;
   z-index: 1;
-  left: 12rem;
+  left: 3rem;
   /* top: 13rem; */
-  height: 1em;
-  padding: 0.5rem;
-  width: max-content;
+  height: 5em;
+  width: 90%;
+  /* padding: 0.5rem; */
+  /* width: max-content; */
   border-radius: 0.6rem;
 }
 ul {
   position: relative;
-  right: 1.4rem;
-  bottom: 1.4rem;
+  /* right: 1.4rem; */
+  /* bottom: 1.4rem; */
   list-style: none;
   display: flex;
+  justify-content: space-between;
   gap: 1rem;
 }
 .tab {
@@ -52,14 +54,14 @@ button:active {
 }
 
 .counter {
-  font-size: 7px;
-  position: relative;
-  left: 1.5rem;
-  bottom: 2rem;
-  border-radius: 12px;
-  background: white;
-  color: black;
-  padding: 2px;
+  font-size: 20px;
+  /* position: relative; */
+  /* left: 0.1rem; */
+  /* bottom: 2rem; */
+  /* border-radius: 12px; */
+  /* background: white; */
+  color: white;
+  /* padding: auto; */
 }
 
 /*Boutons Commander */
@@ -297,14 +299,36 @@ h1 {
   .program {
     position: relative;
     bottom: 5rem;
+    width: 120%;
+    right: 3.1rem;
+    font-size: 500px;
+    height: 200px;
+    font-weight: bold;
   }
 
   nav {
     position: fixed;
     z-index: 1;
-    left: 4.7rem;
-    top: 3rem;
-    width: fit-content;
+    height: 90px;
+    padding-top: 0.4rem;
+    left: 0rem;
+    /* top: 1rem; */
+    width: 100%;
+    top: -1rem;
+    /* font-size: 12px; */
+  }
+
+  nav > ul {
+    position: relative;
+    left: 1rem;
+    font-size: x-large;
+    top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.6rem;
+  }
+  nav > ul > button {
+    font-size: 25.1px;
   }
   .transac {
     display: flex;
@@ -314,16 +338,31 @@ h1 {
     right: 19rem;
   }
   button {
-    font-size: 11px;
+    position: relative;
+    right: 1.7rem;
+    /* height: 0px; */
+    /* font-size: 2.5px; */
+  }
+  .menu {
+    position: relative;
+    top: 1.5rem;
+    width: 100%;
+    right: 0.5rem;
+    /* left: 0.5rem; */
   }
   h1 {
     position: relative;
     margin-top: 5rem;
     left: 1rem;
-    bottom: 9rem;
+    /* top: 1rem; */
+    bottom: 10rem;
     color: rgb(255, 145, 0);
   }
   .boite {
+    position: relative;
+    /* top: 1rem; */
+    padding: 1rem;
+    border-radius: 1rem;
     background: rgb(255, 145, 0);
   }
   .bigBoite {
@@ -331,7 +370,7 @@ h1 {
     grid-template-columns: auto;
     position: relative;
     top: 2rem;
-    left: 1.4rem;
+    /* left: 1.2rem; */
     width: 100%;
   }
   #buy0,
@@ -340,8 +379,11 @@ h1 {
   #buy3,
   #buy4,
   #buy5 {
+    font-size: x-large;
     position: relative;
-    right: 3rem;
+    right: 4.3rem;
+    top: 0.4rem;
+    box-shadow: 3px 3px 4px black;
   }
 
   #add0,
@@ -350,14 +392,32 @@ h1 {
   #add3,
   #add4,
   #add5 {
+    top: 0.4rem;
+    /* left: 0.1rem; */
+    font-size: x-large;
+    box-shadow: 3px 3px 4px black;
     position: relative;
     right: 3rem;
   }
   #commander {
     position: fixed;
     left: 22rem;
+    bottom: 5rem;
     margin-top: 21.9rem;
-    width: 7.8%;
+    width: 50px;
     z-index: 1;
+  }
+  .counter {
+    position: relative;
+    /* left: -0.4rem; */
+    font-size: 9.5px;
+    right: 10px;
+    bottom: 6px;
+    /* font-size: 20px; */
+  }
+  .histo {
+    display: grid;
+    gap: 0.4rem;
+    grid-template-columns: auto auto;
   }
 }
