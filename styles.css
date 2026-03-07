@@ -350,13 +350,14 @@ h1 {
     position: relative;
     left: 1rem;
     font-size: 1px;
-    top: 1.2rem;
+    top: 1.4rem;
     display: flex;
     justify-content: space-between;
     gap: 0.4rem;
   }
   nav > ul > .tab {
-    font-size: 28px;
+    font-size: 28.4px;
+    box-shadow: 2px 4px 3px black;
   }
   .transac {
     position: relative;
@@ -427,7 +428,7 @@ h1 {
   }
   #commander {
     position: fixed;
-    left: 23rem;
+    left: 23.6rem;
     /* bottom: rem; */
     margin-top: 21.9rem;
     width: 50px;
