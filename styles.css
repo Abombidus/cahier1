@@ -121,8 +121,8 @@ button:active {
 }
 .profile {
   position: absolute;
-  top: -2rem;
-  left: -20rem;
+  top: 2rem;
+  left: -16rem;
   width: 200%;
   /* height: 100%; */
   border-radius: 0.4rem;
