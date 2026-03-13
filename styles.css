@@ -128,7 +128,7 @@ button:active {
 
 article {
   /* background: rgba(238, 217, 178, 0.9); */
-  background: rgba(135, 168, 211, 0.5);
+  background: rgba(135, 168, 211, 0.9);
   height: 400px;
   width: 60%;
   /* width: fit-content; */
