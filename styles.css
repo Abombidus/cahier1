@@ -331,8 +331,8 @@ h1 {
   body {
     background-image: url("./assets/Profile.JPG");
     background-attachment: fixed;
-    background-position: 58%;
-    background-size: 250%;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   article {
     animation: none;
