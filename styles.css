@@ -123,7 +123,7 @@ button:active {
   position: absolute;
   top: 5rem;
   left: -6rem;
-  width: 150%;
+  width: 250%;
   /* height: 100%; */
   border-radius: 0.4rem;
 }
@@ -137,7 +137,7 @@ button:active {
 article {
   /* background-image: url("./assets/A.png"); */
   /* background: rgba(238, 217, 178, 0.9); */
-  background: rgba(135, 168, 211, 0.9);
+  background: rgba(135, 168, 211, 0.1);
   height: 400px;
   width: 60%;
   /* width: fit-content; */
