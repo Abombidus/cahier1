@@ -329,6 +329,9 @@ h1 {
   body {
     background-image: url("./assets/Profile.JPG");
     background-position: center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   article {
     animation: none;
