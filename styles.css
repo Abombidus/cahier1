@@ -1,8 +1,9 @@
 body {
-  background-image: url("./assets/Accueil.JPG");
+  /* background-image: url("./assets/Accueil.JPG"); */
+  background-image: url("./assets//Profile.JPG");
   list-style: none;
   text-decoration: none;
-  /* background-position: center; */
+  background-position: center;
   overflow-x: hidden;
   background-size: cover;
   background-attachment: fixed;
@@ -38,10 +39,12 @@ ul {
   font-size: 30px;
   border: 2px solid transparent;
   cursor: pointer;
-  background: rgb(214, 211, 177);
+  /* background: rgb(214, 211, 177); */
+  background: rgb(169, 197, 223);
   height: fit-content;
   border-radius: 12px;
-  color: rgb(109, 106, 106);
+  color: rgb(151, 164, 187);
+  /* color: rgb(109, 106, 106); */
   box-shadow: 2px 3px 3px black;
   padding: 3px;
 }
@@ -53,8 +56,10 @@ button:active {
 
 .active {
   transition: 300ms ease;
-  background: rgb(243, 226, 75);
-  color: black;
+  /* background: rgb(243, 226, 75);  */
+  background: rgb(5, 108, 241);
+  /* color: rgb(240, 233, 233); */
+  color: white;
   font-weight: bold;
 }
 
