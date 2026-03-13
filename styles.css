@@ -2,7 +2,10 @@ body {
   background-image: url("./assets/Accueil.JPG");
   list-style: none;
   text-decoration: none;
+  background-position: center;
+  overflow-x: hidden;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 nav {
