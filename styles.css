@@ -397,12 +397,14 @@ h1 {
     left: 1rem;
     /* top: 1rem; */
     bottom: 10rem;
-    color: rgb(255, 145, 0);
+    color: white;
+    /* color: rgb(255, 145, 0); */
   }
   .boite {
     position: relative;
     /* top: 1rem; */
     padding: 1rem;
+    box-shadow: 2px 4px 3px rgb(39, 38, 38);
     border-radius: 1rem;
     background: rgb(62, 124, 218);
     /* background: rgb(255, 145, 0); */
