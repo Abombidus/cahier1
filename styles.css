@@ -3,7 +3,7 @@ body {
   list-style: none;
   text-decoration: none;
   /* background-position: center; */
-  overflow: hidden;
+  overflow-x: hidden;
   background-size: cover;
   background-attachment: fixed;
 }
