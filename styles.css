@@ -284,9 +284,11 @@ article {
 .boite {
   border-radius: 0.4rem;
   /* background: gold; */
-  background: rgb(62, 124, 218);
+  /* background: rgb(62, 124, 218); */
+  background: rgb(40, 110, 216);
   width: fit-content;
   height: fit-content;
+  box-shadow: 2px 4px 3px rgb(196, 204, 199);
   padding: 12px;
   gap: 5rem;
   font-size: 22px;
@@ -328,10 +330,9 @@ h1 {
 @media (max-width: 600px) {
   body {
     background-image: url("./assets/Profile.JPG");
-    /* background-position: center; */
-    /* background-attachment: fixed; */
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 58%;
+    background-size: 250%;
   }
   article {
     animation: none;
@@ -409,7 +410,8 @@ h1 {
     position: relative;
     /* top: 1rem; */
     padding: 1rem;
-    box-shadow: 2px 4px 3px rgb(39, 38, 38);
+    box-shadow: 2px 4px 3px rgb(196, 204, 199);
+    /* box-shadow: 2px 4px 3px rgb(39, 38, 38); */
     border-radius: 1rem;
     background: rgb(62, 124, 218);
     /* background: rgb(255, 145, 0); */
