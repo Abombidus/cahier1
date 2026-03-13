@@ -329,7 +329,7 @@ h1 {
 /* Media Query Telephone mobile */
 @media (max-width: 600px) {
   body {
-    background-image: url("./assets/Profile.JPG");
+    background: rgb(44, 111, 199);
     background-position: center;
     overflow-x: hidden;
     background-size: cover;
@@ -412,10 +412,10 @@ h1 {
     position: relative;
     /* top: 1rem; */
     padding: 1rem;
-    box-shadow: 2px 4px 3px rgb(196, 204, 199);
+    box-shadow: 2px 4px 3px rgb(25, 27, 27);
     /* box-shadow: 2px 4px 3px rgb(39, 38, 38); */
     border-radius: 1rem;
-    background: rgb(62, 124, 218);
+    background: rgb(211, 221, 243);
     /* background: rgb(255, 145, 0); */
   }
   .bigBoite {
