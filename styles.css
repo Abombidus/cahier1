@@ -327,6 +327,8 @@ h1 {
 /* Media Query Telephone mobile */
 @media (max-width: 600px) {
   body {
+    background-image: url("./assets/Profile.JPG");
+    background-position: center;
   }
   article {
     animation: none;
