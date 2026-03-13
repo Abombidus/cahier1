@@ -328,7 +328,7 @@ h1 {
 @media (max-width: 600px) {
   body {
     background-image: url("./assets/Profile.JPG");
-    background-position: center;
+    /* background-position: center; */
     /* background-attachment: fixed; */
     background-size: cover;
     background-repeat: no-repeat;
