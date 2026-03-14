@@ -408,6 +408,7 @@ h1 {
     left: 10rem;
     /* left: 0.5rem; */
   }
+
   h1 {
     position: relative;
     margin-top: 5rem;
@@ -463,7 +464,7 @@ h1 {
   }
   #commander {
     position: fixed;
-    left: 23rem;
+    left: 19.8rem;
     /* bottom: rem; */
     margin-top: 21.9rem;
     width: 50px;
@@ -562,5 +563,12 @@ h1 {
     transform: translateY(20%);
     box-shadow: none;
     transition: 150ms ease;
+  }
+
+  #hot,
+  #cold {
+    font-size: 22.5px;
+    position: relative;
+    top: 0.2rem;
   }
 }
